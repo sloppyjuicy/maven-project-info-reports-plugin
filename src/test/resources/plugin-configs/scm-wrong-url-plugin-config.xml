@@ -24,6 +24,7 @@ under the License.
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>scm project info</name>
+  <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -39,7 +40,6 @@ under the License.
         <configuration>
           <outputDirectory>target/test-harness/scm</outputDirectory>
           <project implementation="org.apache.maven.report.projectinfo.stubs.ScmStub"/>
-          <localRepository>${localRepository}</localRepository>
           <checkoutDirectoryName>test-artifactId</checkoutDirectoryName>
         </configuration>
       </plugin>

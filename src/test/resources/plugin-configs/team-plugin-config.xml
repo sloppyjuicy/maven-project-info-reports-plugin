@@ -24,6 +24,7 @@ under the License.
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>team project info</name>
+  <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -55,7 +56,6 @@ under the License.
         <artifactId>maven-project-info-reports-plugin</artifactId>
         <configuration>
           <outputDirectory>target/test-harness/team</outputDirectory>
-          <localRepository>${localRepository}</localRepository>
           <project implementation="org.apache.maven.report.projectinfo.stubs.TeamStub"/>
         </configuration>
       </plugin>

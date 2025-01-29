@@ -44,8 +44,8 @@ ${project.name}
    * {{{./dependency-convergence-mojo.html}project-info-reports:dependency-convergence}} is used to generate the
    Project Dependency Convergence report for (reactor) builds.
 
-   * {{{./dependency-info-mojo.html}project-info-reports:dependency-info}} is used to generate code snippets to
-   be added to build tools.
+   * {{{./dependency-info-mojo.html}project-info-reports:dependency-info}} is used to generate code snippets
+   of the Maven coordinates to be added to build tools.
 
    * {{{./dependency-management-mojo.html}project-info-reports:dependency-management}} is used to generate the
    Project Dependency Management report.
@@ -79,31 +79,16 @@ ${project.name}
 
    * {{{./summary-mojo.html}project-info-reports:summary}} is used to generate the Project Summary report.
 
-* Incompatibility Notice
+* Upcoming Incompatibility Notice
 
-  With the major version 3.0 several mojos and output filenames have been changed for alignment
-  with their corresponding elements in the POM. In other words, mojos have the same names as their
-  POM counterparts. To make you aware of that, see the following table for the upcoming changes:
+  With a future version mojos and output filenames will change for consistency alignment.
+  See the following table for the upcoming changes:
 
-*----------------------*------------------------*------------------------------*-----------------------------*
-|| Goal Name           || New Goal Name         || Output name                 || New Output Name            |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<cim>>>            | <<<ci-management>>>    | <<<integration.html>>>       | <<<ci-management.html>>>    |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<mailing-list>>>   | <<<mailing-lists>>>    | <<<mail-lists.html>>>        | <<<mailing-lists.html>>>    |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<project-team>>>   | <<<team>>>             | <<<team-list.html>>>         | <<<team.html>>>             |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<license>>>        | <<<licenses>>>         | <<<license.html>>>           | <<<licenses.html>>>         |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<issue-tracking>>> | <<<issue-management>>> | <<<issue-tracking.html>>>    | <<<issue-management.html>>> |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<scm>>>            | \u2013                 | <<<source-repository.html>>> | <<<scm.html>>>              |
-*----------------------+------------------------+------------------------------+-----------------------------+
-| <<<summary>>>        | \u2013                 | <<<project-summary.html>>>   | <<<summary.html>>>          |
-*----------------------+------------------------+------------------------------+-----------------------------+
-
-  Details about this change can be found in {{{https://issues.apache.org/jira/browse/MPIR-323}MPIR-323}}.
+*-----------------------*-------------------------*----------------------------*------------------------------*
+|| Goal Name            || New Goal Name          || Output name               || New Output Name             |
+*-----------------------+-------------------------+----------------------------+------------------------------+
+| <<<dependency-info>>> | <<<maven-coordinates>>> | <<<dependency-info.html>>> | <<<maven-coordinates.html>>> |
+*-----------------------+-------------------------+----------------------------+------------------------------+
 
 * Usage
 
